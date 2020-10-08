@@ -9,19 +9,15 @@
 }
 
 .column-half {
-  width: 60%;
-}
-
-.column-full {
-  width: 100%;
+  width: 50%;
 }
 
 .column-one-third {
-  width: 100%;
+  width: 33%;
 }
 
 .col-one-fourth {
-  width: 100%;
+  width: 25%;
 }
 
 img {
