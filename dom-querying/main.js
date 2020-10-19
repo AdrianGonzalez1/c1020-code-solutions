@@ -1,0 +1,13 @@
+var h1Element = document.querySelector('h1');
+console.log(h1Element);
+console.dir(h1Element);
+var idElement = document.querySelector('#explanation');
+console.log(idElement);
+console.dir(idElement);
+var classElement = document.querySelector('.hint');
+console.log(classElement);
+console.dir(classElement);
+var pElements = document.querySelectorAll('p');
+console.log(pElements);
+var allClassElements = document.querySelectorAll('.example-link');
+console.log(allClassElements);
