@@ -1,10 +1,12 @@
 var circleElement = document.querySelector('.circle-element');
 var bodyElement = document.querySelector('body');
+var isOn = false;
 
 circleElement.addEventListener('click', clickCircle);
 
 function clickCircle(event) {
-  if (circleElement.className === 'circle-element') {
+  isOn = !isOn;
+  if (isOn) {
     circleElement.className = 'circle-off';
     bodyElement.className = 'body-off';
   } else {
