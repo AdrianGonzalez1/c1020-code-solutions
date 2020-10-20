@@ -1,11 +1,12 @@
 var hotButton = document.querySelector('.hot-button');
 var clickCount = document.querySelector('.click-count');
-var counter = 1;
+var counter = 0;
 
 hotButton.addEventListener('click', counterIncrement);
 
 function counterIncrement(event) {
-  clickCount.textContent = 'Clicks: ' + counter++;
+  counter++;
+  clickCount.textContent = 'Clicks: ' + counter;
   if (counter < 4) {
     hotButton.className = 'hot-button cold';
   } else if (counter < 7) {
