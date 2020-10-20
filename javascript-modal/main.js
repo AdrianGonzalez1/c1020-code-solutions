@@ -6,16 +6,14 @@ var modalButton = document.querySelector('.modal-button');
 openModalButton.addEventListener('click', modalHandle);
 modalButton.addEventListener('click', modalButtonHandle);
 
+// opens modal popup
 function modalHandle(event) {
-  if (event) {
-    overlayElement.className = 'overlay';
-    modalElement.className = 'modal';
-  }
+  overlayElement.className = 'overlay';
+  modalElement.className = 'modal';
 }
 
+// closes modal popup
 function modalButtonHandle(event) {
-  if (event) {
-    modalElement.className = 'hidden';
-    overlayElement.className = 'hidden';
-  }
+  modalElement.className = 'hidden';
+  overlayElement.className = 'hidden';
 }
