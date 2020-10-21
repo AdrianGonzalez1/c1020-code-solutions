@@ -17,14 +17,19 @@ h2 {
   border-radius: 5px;
 }
 
+.modal-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .open-modal:hover {
   cursor: pointer;
 }
 
 .modal {
   position: absolute;
-  top: 30%;
-  left: 20%;
   border: 2px black solid;
   padding: 5rem;
   font-size: 22px;
