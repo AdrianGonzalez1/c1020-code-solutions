@@ -1,5 +1,4 @@
 /* exported pokedex */
-
 var pokedex = [
   {
     number: '001',
@@ -86,4 +85,5 @@ var rowElement = document.querySelector('.row');
 for (var i = 0; i < pokedex.length; i++) {
   var pokemon = renderPokemon(pokedex[i]);
   rowElement.appendChild(pokemon);
+
 }
