@@ -16,12 +16,13 @@ function tabElementHandle(event) {
     }
   }
   // iterates through .view NodeList and updates hidden class to swap tabs
-  var attribute = event.target.getAttribute('data-view');
+
   for (var index = 0; index < viewElements.length; index++) {
+    var attribute = event.target.getAttribute('data-view');
     if (viewElements[index].getAttribute('data-view') === attribute) {
       viewElements[index].className = 'view';
     } else {
-      viewElements[index].classList = 'view hidden';
+      viewElements[index].className = 'view hidden';
     }
   }
 }
