@@ -15,3 +15,4 @@ function isVowel(char) {
 // conditional to check if the char at index is strictly equal to char in each string
 // return true if char is equal to a char in either string
 // otherwise return false
+

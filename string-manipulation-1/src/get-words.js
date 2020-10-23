@@ -11,3 +11,4 @@ function getWords(string) {
 // iterate through the word string length
 // pull  index from each iteration and push to storage array
 // if no value return undefined
+

@@ -6,3 +6,4 @@ function reverseWord(word) {
   }
   return str;
 }
+

@@ -5,3 +5,4 @@ function isUpperCased(word) {
   }
   return false;
 }
+

@@ -5,3 +5,4 @@ function isLowerCased(word) {
   }
   return false;
 }
+

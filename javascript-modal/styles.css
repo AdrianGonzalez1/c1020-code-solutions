@@ -1,0 +1,61 @@
+h2 {
+  margin-bottom: 4rem;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.742);
+}
+
+.open-modal {
+  padding: 0.5rem 2rem;
+  font-size: 22px;
+  color: white;
+  background-color: rgb(80, 80, 254);
+  border-radius: 5px;
+}
+
+.modal-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-modal:hover {
+  cursor: pointer;
+}
+
+.modal {
+  position: absolute;
+  border: 2px black solid;
+  padding: 5rem;
+  font-size: 22px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.modal-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-button {
+  padding: 0.75rem 2rem;
+  font-size: 20px;
+  color: white;
+  background: rgb(252, 96, 96);
+  border: none;
+  border-radius: 5px;
+}
+
+.modal-button:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
