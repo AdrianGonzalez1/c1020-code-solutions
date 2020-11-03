@@ -1,27 +1,13 @@
 /* eslint-disable no-unused-vars */
-var str = '';
-
 function capitalize(word) {
-  for (var i = 0; i < word.length; i++) {
-    if (word[i] === word[0]) {
-      str += word[0].toUpperCase();
+  var upper = '';
+  var lower = '';
+  for (let i = 0; i < word.length; i++) {
+    if (i === 0) {
+      upper += word[i].toUpperCase();
+    } else {
+      lower += word[i].toLowerCase();
     }
-    return str;
   }
-
+  return upper + lower;
 }
-
-//   for (var i = 0; i < word.length; i++) {
-//     if (word[i] === word[0]) {
-//       str += word[0].toUpperCase();
-//     } else {
-//       console.log(word[i])
-//     }
-//   }
-//   return str;
-// }
-// console.log(capitalize())
-// create empty string storage
-// loop through string
-// if index = 0 to capitalize
-// to lower case
