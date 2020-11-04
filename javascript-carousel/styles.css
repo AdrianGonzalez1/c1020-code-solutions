@@ -1,0 +1,31 @@
+.pokemon-image {
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.chevron {
+  display: flex;
+  align-items: center;
+}
+
+.row-1 {
+  padding-bottom: 2rem;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
+.circle-icons {
+  display: flex;
+}
+
+.fa-circle {
+  padding: 0 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
