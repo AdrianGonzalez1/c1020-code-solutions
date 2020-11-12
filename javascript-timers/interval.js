@@ -6,6 +6,7 @@ function countdown() {
   h1Element.innerHTML = counter--;
   if (counter < 0) {
     h1Element.innerHTML = 'Earth Below Us!';
+    stopCountdown();
   }
 }
 
